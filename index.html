@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Edouard BONGO</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css ">
+	<link rel="stylesheet" type="text/css" href="lib\bootstrap\css\bootstrap.min.css ">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+
 
 </head>
 
@@ -12,51 +15,55 @@
 
 
 <!--Entete    -->
-<div class="container-fluid">	
-	<ul class="nav justify-content-center navbar navbar-dark" style="background-color:#F7F7F7 ;">
-	  
-	  <li class="nav-item">
-	    <a class="nav-link active fa fa-home" href="#">  Home</a>
-	  </li>
+<div class="container-fluid" id="entete">	
+	<div class="navbar navbar-inverse " style="background-color:#F7F7F7; " >
+		<ul class="nav navbar-nav" >
+		  
+		  <li class="active">
+		    <a class="nav-link active fa fa-home" href="#">  Home</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-rocket" href="#competence" >   Compétences</a>
-	  </li>
+		  <li>
+		    <a class="fa fa-rocket " href="#competence" >   Compétences</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-graduation-cap" href="#formation">Formations</a>
-	  </li>
+		  <li >
+		    <a class="fa fa-graduation-cap" href="#formation">Formations</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-book" href="#Certication">Certifications</a>
-	  </li>
+		  <li>
+		    <a  fa fa-book" href="#certication">Certifications</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-briefcase" href="#experience">Expériences Professionelle</a>
-	  </li>
+		  <li>
+		    <a  fa fa-briefcase" href="#experience">Expériences Professionelle</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-globe" href="#centre">Centre d'Intérêts</a>
-	  </li>
+		  <li >
+		    <a  fa fa-globe" href="#centre">Centre d'Intérêts</a>
+		  </li>
 
-	  <li class="nav-item">
-	    <a class="nav-link fa fa-phone" href="#contact">Contact</a>
-	  </li>
+		  <li >
+		    <a  fa fa-phone" href="#contact">Contact</a>
+		  </li>
 
-	</ul>
-</div>
+		</ul>
+	</div>
 
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-			<img src="images/photocv.jpg" alt="Photo de profil" width="100%" height="250px" class="img-responsive img-circle"/>
+			<img src="images/photocv.jpg" alt="Photo de profil" width="70%" height="150px" class="img-responsive img-circle"/>
 		</div>
-		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7"></div>
+		<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-4 col-lg-offset-1 col-lg-6">
+				<p>BONGO JEAN PHILIPPE EDOUARD</p>
+				<p>Développeur web mobile</p>
+				<p>bongojeanphilippe@gmail.com</p>
+
+		</div>
 
 	</div>
-
-
-
+</div>
 </div>
 <!--Fin Entete -->
 
@@ -64,37 +71,224 @@
 
 <!-- Corps de la page -->
 
-<div class="container-fluid">
+<div class="container-fluid" id="corps">
 
 
 	<!--competences   -->
-	<div class="container">
+	<div class="container" id="competence">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4"> 
+				<p id="competences">COMPETENCES</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4"> 
+				<div>
+					<p>Système</p>
+					<p>
+						<ul>
+							<li>Linux</li>
+							<li>Windows</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4"> 
+				<div>
+					<p>Langages</p>
+					<p>
+						<ul>
+							<li>PHP</li>
+							<li>JAVA</li>
+							<li>HTML</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-4"> 
+				<div>
+					<p>Frameworks</p>
+					<p>
+						<ul>
+							<li>Bootstrap</li>
+							<li>Jquery</li>
+							
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+			
+		<div class="row">
+			
+			<div class="col-md-4"> 
+				<div>
+					<p>CMS</p>
+					<p>
+						<ul>
+							<li>Wordpress</li>
+							<li>Joomla</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4"> 
+				<div>
+					<p>SGBD</p>
+					<p>
+						<ul>
+							<li>Mysql</li>
+							<li>Sqlsever</li>							
+						</ul>
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-4"> 
+				<div>
+					<p>OUTILS</p>
+					<p>
+						<ul>
+							<li>Git/Svn</li>
+							<li>Photoshop</li>
+							
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4">
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    </ol>
+
+					<div class="carousel-inner" role="listbox">
+							<div class="item active">
+							  <img src="images/slide/php.jpg" alt="PHP">
+							  <div class="carousel-caption">
+							    <h3>...</h3>
+							    <p>...</p>
+							  </div>
+							</div>
+							<div class="item">
+							  <img src="images/slide/html.png" alt="HTML">
+							  <div class="carousel-caption">
+							    <h3>...</h3>
+							    <p>...</p>
+							  </div>
+							</div>
+							<div class="item">
+							  <img src="images/slide/css.png" alt="CSS">
+							  <div class="carousel-caption">
+							    <h3>...</h3>
+							    <p>...</p>
+							  </div>
+							</div>
+						</div>
+
+					<!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+				     
+				     
+				      
+				      
+			</div>
+							
+		</div>
 
 	</div>
 	<!--Fin -->
 
 	<!--Formation   -->
-	<div class="container-fluid">
-
+	<div class="container-fluid" id="formation">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4 ">
+				<p id="formation">FORMATIONS</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<p>2017-2018 ECE TECH</p>
+			</div>
+			<div class="col-md-4">
+				<p>2013-2014 LEGACY INSTITUTE</p>
+			</div>
+			<div class="col-md-4">
+				<p>2011-2012 LYCEE ADIAKE</p>
+			</div>
+		</div>
 	</div>
 	<!--Fin -->
 
 
 	<!--Certication   -->
-	<div class="container">
+	<div class="container" id="certification">
+		<div class="row">
+			<div class=" col-md-offset-4 col-md-4">
+				<p id="certication">CERTIFICATION</p>
+			</div>
 
+		</div>
+		<div class="row">
+			<div class=" col-md-offset-4 col-md-4">
+				<p>Avril 2015 IBSE</p>
+
+			</div>
+			
+		</div>
 	</div>
 	<!--Fin -->
 
 	<!--Experience professionnelle    -->
-	<div class="container-fluid">
-
+	<div class="container-fluid" id="experience">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4">
+				<p id="experience">EXPERIENCE PROFESSIONNELLE</p>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col-md-4"><p>PRIMEUM DEVELOPPEMENT</p></div>
+			<div class="col-md-4"><p>COMPETENCES-SARL</p></div>
+			<div class="col-md-4"><p>AVENIR CONSULTING</p></div>
+		</div>
 	</div>
 	<!--Fin -->
 
 	<!--Centre d'interet   -->
-	<div class="container">
-
+	<div class="container" id="centre">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4">
+				<p id="centre">CENTRE D'INTERET</p>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col-md-4"><p>Lecture</p></div>
+			<div class="col-md-4"><p>Natation</p></div>
+			<div class="col-md-4"><p>Trading</p></div>
+		</div>
 	</div>
 	<!--Fin -->
 
@@ -104,11 +298,46 @@
 
 
 <!--Pied de page   -->
-<div class="container">
-
+<div class="container-fluid" id="footer">
+	<div class="row">
+			<div class="col-md-offset-4 col-md-4">
+				<p id="contact">CONTACT</p>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col-md-7">
+				<form>
+				  <div class="form-group">
+				    <label for="email">Addresse email:</label>
+				    <input type="email" class="form-control" id="email">
+				  </div>
+				  <div class="form-group">
+				    <label for="nom">Nom & Prénom(s):</label>
+				    <input type="text" class="form-control" id="nom">
+				  </div>
+				  <div class="form-group">
+				    <label for="message">Votre message:</label>
+				    <textarea class="form-control" id="message" style="height:300px;" >
+				    	
+				    </textarea> 
+				  </div>
+				  
+				  <button type="submit" class="btn btn-default">Envoyer</button>
+				</form>
+			</div>
+			<div class="col-md-5">
+				<p>Téléphone :</p>
+				<p>Mail : </p>
+				<p>Adresse : </p>
+			</div>
+			
+		</div>
 </div>
 <!--Fin Pied de page-->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
 
 </body>
 </html>

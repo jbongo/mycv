@@ -2,3 +2,36 @@
 	border: 2px solid red;
 	height: 70px;
 }
+#entete{
+	background-color: #66757F;
+	margin-bottom: 20px;
+}
+
+#corps{
+	background-color:#f8f9fa;
+	margin-bottom: 20px;
+}
+
+#footer{
+	background-color: #292F33;
+}
+
+#competence{
+	margin-bottom: 50px;
+}
+
+#experience{
+	margin-bottom: 50px;
+}
+
+#centre{
+	margin-bottom: 50px;
+}
+
+#formation{
+	margin-bottom: 50px;
+}
+
+#certification{
+	margin-bottom: 50px;
+}
